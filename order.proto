@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "github.com/asantini/microservice-proto/order";
+option go_package = "github.com/asantini/microservice-proto/ports";
 
 message CreateOrderRequest {
     int64 user_id = 1;
